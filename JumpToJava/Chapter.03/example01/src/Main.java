@@ -74,5 +74,9 @@ public class Main {
         hmap.put("people", "사람");
         hmap.put("baseball", "야구");
         System.out.println(hmap.get("people"));
+
+        final int x = 10;
+//        x = 20;
+        System.out.println(x);
     }
 }

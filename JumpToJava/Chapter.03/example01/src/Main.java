@@ -53,5 +53,12 @@ public class Main {
         String result = sb.toString();
         System.out.println(result);
 
+        System.out.println("-------------------------------------");
+        int[] array = {3, 5, 2, 4, 67};
+        System.out.println(array[2]);
+        System.out.println(array.length);
+
+        System.out.println("-------------------------------------");
+        
     }
 }

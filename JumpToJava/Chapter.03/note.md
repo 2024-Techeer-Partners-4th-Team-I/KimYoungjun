@@ -54,3 +54,21 @@ ture와 false를 값으로 갖는다.
 (자료형) [] (변수명) = {e1, e2, e3, ...}
 배열에 접근할 때는 변수명 뒤에 대괄호와 인덱스 번호를 사용
 length 메서드를 사용할 수 있다.
+
+## 리스트
+
+'''
+ArrayList (변수명) = new ArrayList();
+'''를 사용하여 생성할 수 있다.
+add 메서드로 원소를 추가한다.
+그 외에도 배열레는 없는 기능이 많다.
+
+- get
+- size
+- contains
+- remove
+
+## 맵
+
+파이썬의 딕셔너리와 비슷한 구조
+맵 자료형에는 HashMap, LinkedHashMap, TreeMap 등이 있다.

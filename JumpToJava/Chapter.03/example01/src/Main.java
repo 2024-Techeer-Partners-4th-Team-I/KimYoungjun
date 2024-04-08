@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.HashMap;
 
 public class Main {
     public static void main(String[] args) {
@@ -67,5 +68,11 @@ public class Main {
 
         System.out.println(list);
         System.out.println(list.size());
+
+        System.out.println("-------------------------------------");
+        HashMap<String, String> hmap = new HashMap<>();
+        hmap.put("people", "사람");
+        hmap.put("baseball", "야구");
+        System.out.println(hmap.get("people"));
     }
 }

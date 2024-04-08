@@ -43,6 +43,15 @@ public class Main {
 
         System.out.println(A.replaceAll("java", "world"));
 
+        System.out.println("-------------------------------------");
+        StringBuffer sb = new StringBuffer();
+
+        System.out.println(sb);
+        sb.append("hello");
+        sb.append(" java");
+
+        String result = sb.toString();
+        System.out.println(result);
 
     }
 }

@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -59,6 +61,11 @@ public class Main {
         System.out.println(array.length);
 
         System.out.println("-------------------------------------");
-        
+        ArrayList list = new ArrayList();
+        list.add(33);
+        list.add(23);
+
+        System.out.println(list);
+        System.out.println(list.size());
     }
 }

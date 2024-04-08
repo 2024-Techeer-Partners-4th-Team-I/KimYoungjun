@@ -72,3 +72,32 @@ add 메서드로 원소를 추가한다.
 
 파이썬의 딕셔너리와 비슷한 구조
 맵 자료형에는 HashMap, LinkedHashMap, TreeMap 등이 있다.
+
+메서드 정리 :
+
+- put
+- get
+- containsKey
+- remove
+- size
+- keySet
+
+## enum
+
+상수집합을 나타낸다
+
+## 형변환
+
+String -> int
+
+- Integer.parseInt()
+  String -> double
+- Double.parseDouble()
+  int -> String
+- String A = "" + int
+- String.valueOf()
+- Integer.toString()
+
+### 키워드 final
+
+변수를 선언할 때 final을 선언하면 값을 바꿀 수 없다.
